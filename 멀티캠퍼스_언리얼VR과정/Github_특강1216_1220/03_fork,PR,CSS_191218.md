@@ -46,6 +46,8 @@ https://prius2.github.io/
 
 CSS 선택자를 32단계의 게임으로 공부할 수 있다.
 
+32단계까지 깨기는 했지만 아직 확실히는 모르겠다.
+
 http://flukeout.github.io/![flukeout](03__191218.assets/flukeout.png)
 
 ![image-20191218164508808](03__191218.assets/image-20191218164508808.png)
