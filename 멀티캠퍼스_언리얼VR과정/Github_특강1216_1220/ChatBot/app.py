@@ -47,10 +47,28 @@ def chatbot():
     
 
     if chat_text[0:3]=='@번역':
-        
+        print('@번역')
+        to_be_translated = chat_text[3:]
+        print('##to_be_translated = ' + chat_text)
+        url = 'https://openapi.naver.com/v1/papago/n2mt'
+        #source = 'en'
+        #target = 'kr'
+        headers = {
+            'Content-Type' : 'application/x-www-form-urlencoded; charset=UTF-8',
+            'X-Naver-Client-Id' : naver_client_id,
+            'X-Naver-Client-Secret' : naver_client_secret
+        }
+        data = f'source=ko&target=en&text={to_be_translated}'.encode('utf-8')
+        res = requests.post(url, headers=headers, data=data).json()
+        response = res.get('message').get('result').get('translatedText')
+
+    
 
 
 
+    req = f'{apiUrl}sendMessage?chat_id={chat_id}&text={response}'
+    res = requests.get(req)
+    
     return 'ok', 200
     # status code 200 ->  ok 잘 접수했다. (내서버 -> 텔레그램 서버)
 
