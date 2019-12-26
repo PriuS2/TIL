@@ -33,3 +33,5 @@
 
 [04_python실습_191219]([https://github.com/PriuS2/TIL/blob/master/%EB%A9%80%ED%8B%B0%EC%BA%A0%ED%8D%BC%EC%8A%A4_%EC%96%B8%EB%A6%AC%EC%96%BCVR%EA%B3%BC%EC%A0%95/Github_%ED%8A%B9%EA%B0%951216_1220/04_python%EC%8B%A4%EC%8A%B5_191219.md](https://github.com/PriuS2/TIL/blob/master/멀티캠퍼스_언리얼VR과정/Github_특강1216_1220/04_python실습_191219.md))
 
+[05_번역ChatBot제작실습]([https://github.com/PriuS2/TIL/blob/master/%EB%A9%80%ED%8B%B0%EC%BA%A0%ED%8D%BC%EC%8A%A4_%EC%96%B8%EB%A6%AC%EC%96%BCVR%EA%B3%BC%EC%A0%95/Github_%ED%8A%B9%EA%B0%951216_1220/05_python%EC%8B%A4%EC%8A%B5_191220.md](https://github.com/PriuS2/TIL/blob/master/멀티캠퍼스_언리얼VR과정/Github_특강1216_1220/05_python실습_191220.md))
+
